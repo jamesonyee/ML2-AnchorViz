@@ -32,10 +32,10 @@ git clone https://github.com/username/ML2-AnchorViz
  <li>Let Unity import all necessary assets. </li>
 </ul>
 
-4. Adding Your Own Models
+<b><p> 3. Adding Your Own Models </p></b>
 <b>Step 1: Import Your Model </b>
 <ol>Import your 3D model into Unity:
-<ul>Drag and drop your model files (.fbx, .obj, etc.) into the Assets folder or a subfolder within it. </ul>
+ <ul>Drag and drop your model files (.fbx, .obj, etc.) into the Assets folder or a subfolder within it. </ul>
 </ol>
 
 Step 2: Create a Prefab
