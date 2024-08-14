@@ -19,6 +19,10 @@ AnchorViz is a Unity-based Augmented Reality project that allows users to place 
 </ul>
 
 <h2> Getting Started </h2>
+1. To clone this repository, use the following command:
+
+```bash
+git clone https://github.com/username/repository.git
 
 2. Import the Project into Unity
 Open Unity Hub.
