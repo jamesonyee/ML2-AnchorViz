@@ -10,16 +10,14 @@ AnchorViz is a Unity-based Augmented Reality project that allows users to place 
 </ul>
 
 <h2> Requirements </h2>
-Unity 2022.3.34f1 or later
-AR Foundation 5.0 or later
-Magic Leap SDK
-A Magic Leap 2 device
-Getting Started
+<ul>
+ <li>Unity 2022.3.34f1 or later</li>
+ <li>AR Foundation 5.0 or later</li>
+ <li>Magic Leap SDK</li>
+ <li>A Magic Leap 2 device</li>
+</ul>
 
-1. Clone the Repository
-Clone this repository to your local machine using:
-
-git clone https://github.com/yourusername/AnchorViz.git
+<h2> Getting Started </h2>
 
 2. Import the Project into Unity
 Open Unity Hub.
