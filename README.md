@@ -1,12 +1,15 @@
 # ML2-AchorViz
  
-AnchorViz is a Unity-based augmented reality (AR) project that allows users to place anchor points and visualize 3D models at those points. This project leverages Magic Leap and Unity's AR Foundation to create an immersive experience where users can select different models from a dropdown menu and place them in the real world using anchor points.
+AnchorViz is a Unity-based Augmented Reality project that allows users to place 4 anchor points and visualize 3D models in that plane. This project leverages Magic Leap, Unity's AR Foundation, and OpenXR subsystems to create an immersive experience where users can select different models from a dropdown menu and place them in the real world using anchor points.
 
-Features
-Create and manage anchor points in AR.
-Visualize different 3D models at anchor points.
-Easily add and manage models through a dropdown menu.
-Requirements
+<h2> Features </h2>
+<ul>
+ <li> Create and manage anchor points in AR. </li>
+ <li>Visualize different 3D models</li>
+ <li>Easily add and manage models through a dropdown menu.</li>
+</ul>
+
+<h2> Requirements </h2>
 Unity 2022.3.34f1 or later
 AR Foundation 5.0 or later
 Magic Leap SDK
