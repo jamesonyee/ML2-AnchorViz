@@ -37,14 +37,17 @@ git clone https://github.com/username/ML2-AnchorViz
 <ol>
   <li> Import your 3D model into Unity: </li>
   <ul>
-     <li> Drag and drop your model files (.fbx, .obj, etc.) into the Assets folder or a subfolder within it. </li>
-  /ul>
+     <li> Drag and drop your model files (.fbx, .obj, etc.) into the Assets folder or a prefabs subfolder within it. </li>
+  </ul>
 </ol>
 
-Step 2: Create a Prefab
-After importing your model, drag it into the scene.
-Adjust the position, rotation, and scale as needed.
-Once you're satisfied with the model's setup, drag the model from the Hierarchy window back into the Assets/Prefabs folder to create a prefab.
+<b><p>Step 2: Create a Prefab</p></b>
+<ol>
+ <li>Right click in the Unity file explorer and navigate to <b>Create > Prefab </b> </li>
+ <li>Rename it and double click it top open</li>
+ <li>Drag the 3d model you imported in the prefab Hierarchy window and it will appear in the viewer</li>
+</ol>
+
 Step 3: Add the Model to the Array
 In the Hierarchy window, select the ML Rig object.
 In the Inspector window, locate the Spatial Anchors Test script component.
