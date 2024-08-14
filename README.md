@@ -12,6 +12,7 @@ AnchorViz is a Unity-based Augmented Reality project that allows users to place 
 <h2> Requirements </h2>
 <ul>
  <li>Unity 2022.3.34f1 or later</li>
+ <li>OpenXR plugin </li>
  <li>AR Foundation 5.0 or later</li>
  <li>Magic Leap SDK</li>
  <li>A Magic Leap 2 device</li>
