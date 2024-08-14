@@ -22,17 +22,19 @@ AnchorViz is a Unity-based Augmented Reality project that allows users to place 
 1. To clone this repository, use the following command:
 
 ```bash
-git clone https://github.com/username/repository.git
-``` 
+git clone https://github.com/username/ML2-AnchorViz
+```
 
 2. Import the Project into Unity
 Open Unity Hub.
-Click on Open and select the cloned repository folder.
+Click on <b>Open</b> and select the cloned repository folder.
 Let Unity import all necessary assets.
 3. Adding Your Own Models
-Step 1: Import Your Model
-Import your 3D model into Unity:
-Drag and drop your model files (.fbx, .obj, etc.) into the Assets folder or a subfolder within it.
+<b>Step 1: Import Your Model </b>
+<ol>Import your 3D model into Unity:
+<ul>Drag and drop your model files (.fbx, .obj, etc.) into the Assets folder or a subfolder within it. </ul>
+</ol>
+
 Step 2: Create a Prefab
 After importing your model, drag it into the scene.
 Adjust the position, rotation, and scale as needed.
