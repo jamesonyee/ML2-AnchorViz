@@ -4,62 +4,64 @@ AnchorViz is a Unity-based Augmented Reality project that allows users to place 
 
 <h2> Features </h2>
 <ul>
- <li> Create and manage anchor points in AR. </li>
- <li>Visualize different 3D models</li>
+ <li>Create and manage anchor points in AR.</li>
+ <li>Visualize different 3D models.</li>
  <li>Easily add and manage models through a dropdown menu.</li>
 </ul>
-
 <h2> Requirements </h2>
 <ul>
- <li>Unity 2022.3.34f1 or later</li>
- <li>OpenXR plugin </li>
- <li>AR Foundation 5.0 or later</li>
- <li>Magic Leap SDK</li>
- <li>A Magic Leap 2 device</li>
+ <li>Unity 2022.3.34f1 or later.</li>
+ <li>OpenXR plugin.</li>
+ <li>AR Foundation 5.0 or later.</li>
+ <li>Magic Leap SDK.</li>
+ <li>A Magic Leap 2 device.</li>
 </ul>
-
 <h2> Getting Started </h2>
-<b> 1. Clone the repository </b> 
+<b> 1. Clone the repository </b>
+
 <p>To clone this repository, use the following command:</p>
 
 ```bash
 git clone https://github.com/username/ML2-AnchorViz
 ```
-<b><p>2. Import the Project into Unity</p></b>
-<ul> 
- <li>Open Unity Hub. </li>
- <li>Click on <b>Open</b> and select the cloned repository folder. </li>
- <li>Let Unity import all necessary assets. </li>
+<h3> 2. Import the Project into Unity </h3>
+<ul>
+ <li>Open Unity Hub.</li>
+ <li>Click on <b>Open</b> and select the cloned repository folder.</li>
+ <li>Let Unity import all necessary assets.</li>
 </ul>
-
-<b><p> 3. Adding Your Own Models </p></b>
-<b>Step 1: Import Your Model </b>
-<ol>
-  <li> Import your 3D model into Unity: </li>
-  <ul>
-     <li> Drag and drop your model files (.fbx, .obj, etc.) into the Assets folder or a prefabs subfolder within it. </li>
-  </ul>
-</ol>
-
-<b><p>Step 2: Create a Prefab</p></b>
-<ol>
- <li>Right click in the Unity file explorer and navigate to <b>Create > Prefab </b> </li>
- <li>Rename it and double click it top open</li>
- <li>Drag the 3d model you imported in the prefab Hierarchy window and it will appear in the viewer</li>
-</ol>
-
-Step 3: Add the Model to the Array
-In the Hierarchy window, select the ML Rig object.
-In the Inspector window, locate the Spatial Anchors Test script component.
-Under Model Prefabs, click the + button to add a new element to the array.
-Drag your newly created prefab from the Assets/Prefabs folder into the new element slot.
-Step 4: Update the Dropdown Menu
-In the Hierarchy window, find the UI object and expand it to locate the Dropdown component.
-Click on the Dropdown object to open its properties in the Inspector window.
-In the Inspector, under Options, update the list to include your model's name.
-Add a new option that corresponds to the name of your model.
-Ensure the order of options matches the order of the prefabs in the Model Prefabs array.
-4. Running the Application
-Build and run the application on your Magic Leap device.
-Use the dropdown menu to select your model.
-Press the controller bumper to place anchor points and visualize your model in the AR space.
+<h3> 3. Adding Your Own Models </h3>
+<h4>Step 1: Import Your Model</h4>
+<ul>
+ <li>Import your 3D model into Unity:</li>
+ <ul>
+    <li>Drag and drop your model files (.fbx, .obj, etc.) into the <b>Assets</b> folder or a <b>Prefabs</b> subfolder within it.</li>
+ </ul>
+</ul>
+<h4>Step 2: Create a Prefab</h4>
+<ul>
+ <li>Right-click in the Unity file explorer and navigate to <b>Create > Prefab</b>.</li>
+ <li>Rename it and double-click it to open.</li>
+ <li>Drag the 3D model you imported into the prefab's Hierarchy window, and it will appear in the viewer.</li>
+</ul>
+<h4>Step 3: Add the Model to the Array</h4>
+<ul>
+ <li>In the Hierarchy window, select the <b>ML Rig</b> object.</li>
+ <li>In the Inspector window, locate the <b>Spatial Anchors Test</b> script component.</li>
+ <li>Under <b>Model Prefabs</b>, click the <b>+</b> button to add a new element to the array.</li>
+ <li>Drag your newly created prefab from the <b>Assets/Prefabs</b> folder into the new element slot.</li>
+</ul>
+<h4>Step 4: Update the Dropdown Menu</h4>
+<ul>
+ <li>In the Hierarchy window, find the <b>UI</b> object and expand it to locate the <b>Dropdown</b> component.</li>
+ <li>Click on the <b>Dropdown</b> object to open its properties in the Inspector window.</li>
+ <li>In the Inspector, under <b>Options</b>, update the list to include your model's name.</li>
+ <li>Add a new option that corresponds to the name of your model.</li>
+ <li>Ensure the order of options matches the order of the prefabs in the <b>Model Prefabs</b> array.</li>
+</ul>
+<h3> 4. Running the Application </h3>
+<ul>
+ <li>Build and run the application on your Magic Leap device.</li>
+ <li>Use the dropdown menu to select your model.</li>
+ <li>Press the controller bumper to place anchor points and visualize your model in the AR space.</li>
+</ul>
