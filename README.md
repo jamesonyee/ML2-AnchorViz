@@ -51,6 +51,7 @@ git clone https://github.com/username/ML2-AnchorViz
  <li>Under <b>Model Prefabs</b>, click the <b>+</b> button to add a new element to the array.</li>
  <li>Drag your newly created prefab from the <b>Assets/Prefabs</b> folder into the new element slot.</li>
 </ul>
+![image](https://github.com/user-attachments/assets/d102eb4d-0d9d-4197-9ada-079bc20dc0b9)
 <h4>Step 4: Update the Dropdown Menu</h4>
 <ol>
  <li>In the Hierarchy window, find the <b>UI</b> object and expand it to locate the <b>Dropdown</b> component.</li>
@@ -61,6 +62,7 @@ git clone https://github.com/username/ML2-AnchorViz
   <li>Ensure the order of options matches the order of the prefabs in the <b>Model Prefabs</b> array.</li>
  </ul>
 </ol>
+![image](https://github.com/user-attachments/assets/e97e56be-b870-4ec4-8c16-2ec2dc4dd60f)
 <h3> 4. Running the Application </h3>
 <ul>
  <li>Build and run the application on your Magic Leap device.</li>
